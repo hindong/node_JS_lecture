@@ -9,7 +9,7 @@
 
 
 노드는 V8과 더불어 **libuv**라는 라이브러를 사용합니다. V8과 libuv는 C와 C++로 구현 되어있습니다. libuv 라이브러리는 노드의 특성인 **이벤트 기반, 논 블로킹 I/O 모델**을 구현하고 있습니다.이 모델이 무엇이고 어떤 장단점이 있는지 알아봅시다.
-(img src="https://github.com/hindong/node_JS_lecture/blob/main/chapter01/pic1.png")
+<img src="https://github.com/hindong/node_JS_lecture/blob/main/chapter01/pic1.png"/>
 
 ### 이벤트 기반
 이벤트 기반이란 이벤트가 발생할 떄 미리 지정해둔 작업을 수행하는 방식을 의미합니다. 이벤트로는 클릭이나 네트워크 요청 등이 있을 수 있습니다.
